@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+LFW/fig/*.png
+LFW/lfw_lmdb/*
+LFW/log/*
+LFW/snapshot/*
