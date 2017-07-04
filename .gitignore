@@ -50,3 +50,4 @@ LFW/fig/*.png
 LFW/lfw_lmdb/*
 LFW/log/*
 LFW/snapshot/*
+ResNet/log/*

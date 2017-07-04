@@ -1,0 +1,2 @@
+rem python "train_iterative.py" solver_stage01.prototxt 0 1 solver_stage02.prototxt 0 1
+python "train_iterative2.py" solver_stage02.prototxt 7 8 solver_stage01.prototxt 7 8 --weights=../../distilling/ResNet-50-model_t.caffemodel --log_dir=log

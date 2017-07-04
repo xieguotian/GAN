@@ -1,0 +1,15 @@
+net: "stage02.prototxt"
+base_lr: 0.001
+lr_policy: "fixed"
+#gamma: 0.1
+stepsize: 100000
+display: 1
+max_iter: 300000
+momentum: 0 #0.9
+weight_decay: 0.0 #0.00001
+snapshot: 5000
+snapshot_prefix:"snapshot/stage02"
+solver_mode: GPU
+type: "Adam"
+iter_size: 4
+#average_loss: 20
